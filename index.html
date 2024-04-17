@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Sign-Up Form</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="form.js" defer></script>
+</head>
+
+<body>
+    <div id="leftbar">
+        <div id="title">
+            <img src="extras/breadicon.svg">
+            <h1>Rise Up</h1>
+        </div>
+
+        <div id="credits">
+            <p>Background photo by <a href="https://unsplash.com/@victoriakosmo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Victoria Shes</a> on <a href="https://unsplash.com/photos/sliced-of-baked-bread-beside-stainless-steel-bread-knife-IUk1S6n2s0o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+            <p>Header font by <a href="https://www.behance.net/ilmix">https://www.behance.net/ilmix</a> on <a href="https://fontesk.com/yeast-font/">Fontesk</a></p>
+            <p>Bread icon by Anamika singh from <a href="https://thenounproject.com/browse/icons/term/bread/" target="_blank" title="Bread Icons">Noun Project</a> (CC BY 3.0)</p>
+        </div>
+    </div>
+    
+    <div id="rightbar">
+        <div id="explain">
+            <h3>Different forms of bread are loved all around the world! Let's try some new recipes.
+            </h3>
+        </div>
+
+        <form>
+        <div id="formspace">
+            <div id="forminput">
+                <h3>Rise to the occasion</h3>
+
+                <div id="formcols">
+                    <div class="inputitem">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" id="fname" name="first_name" />
+                    </div>
+
+                    <div class="inputitem">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id="lname" name="last_name" />
+                    </div>
+
+                    <div class="inputitem">
+                        <label for="mail">EMAIL</label>
+                        <input type="email" id="mail" name="e_mail" />
+                    </div>
+
+                    <div class="inputitem">
+                        <label for="pnumber">PHONE NUMBER</label>
+                        <input type="text" id="pnumber" name="phone_number" />
+                    </div>
+
+                    <div class="inputitem">
+                        <label for="pword">PASSWORD</label>
+                        <input type="password" id="pword" name="password" />
+                        <div id="messagebox">Passwords don't match!</div>
+                    </div>
+
+                    <div class="inputitem">
+                        <label for="cpword">CONFIRM PASSWORD</label>
+                        <input type="password" id="cpword" name="confirm_pword" />
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <div id="submitspace">
+                <input type="submit" value="Create account">
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
